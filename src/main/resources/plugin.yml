@@ -1,0 +1,14 @@
+name: VMotd
+version: '${project.version}'
+main: ua.tox8729.vmotd.VMotd
+api-version: '1.16'
+author: [ Tox_8729 ]
+
+commands:
+  vmotd:
+    description: Основ. команда
+
+permissions:
+  vmotd.reload:
+    description: Для перезагрузки
+    default: op
